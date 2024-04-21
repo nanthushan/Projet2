@@ -1,7 +1,7 @@
 # Projet403
 Binome : 
 Kesavan Nanthushan 21109075
-Rapin Marine 
+Rapin Marine 28600299
 
 Pour ce projet 1 d'OPSCI, on a décider de faire un docker-compose ce qui facilite l'éxecution et la compréhension du projet. Ce projet est composé de deux dossiers principaux, mana et opsci-strapi-frontend
 
@@ -60,4 +60,6 @@ Listes des conteneurs ajouté :
 - **stock-consumer**
 - **kafka**
 - **zookeeper**
+
+Dans ce projet, les producer produisent des élements qu'ils envoient aux consumers via kafka et cela permet de remplir Strapi de ces données. Product rempresente l'ensemble des produits, event represente les evenements et stock permet de gerer le stock.
 
