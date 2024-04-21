@@ -44,7 +44,6 @@ Pour la base de données :
 - **base de données :** PostgreSQL
 - **nom du conteneur :** postgres-1
 
-# Projet-Strapi
 
 -------------------------------------------
 
