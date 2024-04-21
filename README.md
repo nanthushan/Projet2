@@ -74,3 +74,4 @@ Listes des conteneurs ajouté :
 
 Dans ce projet, les producer produisent des élements qu'ils envoient aux consumers via kafka et cela permet de remplir Strapi de ces données. Product rempresente l'ensemble des produits, event represente les evenements et stock permet de gerer le stock.
 
+Les logs de stock-consumer sont dans le fichier logs-stock-consumer.pdf et stock-producer renvoie bien les "messages send succesfully".
