@@ -50,6 +50,18 @@ Pour la base de données :
 
 # Projet 2
 
+On souhaite créer un système permettant d’intégrer de grande quantité de données venant de différents flux avec beaucoup de résilience à l’erreur.
+Pour ça on utilise un message broker: Kafka. On veut lancer un kafka avec docker
+
+Notre kafka va nécéssiter plusieurs topics :
+
+product : un topic dédié à la création de nouveau produit en masse, venant de différentes sources
+event : un topic dédié à la création de nouveau produit en masse, venant de différentes sources
+stock : un topic pour enregistrer et appliquer tous les mouvements de stocks de nos produits
+
+Attention tous ces topics devront être précisés dans les configurations des consumers et producers. Si le noms n’est pas le même des deux cotées la communication ne marchera pas.
+
+
 Listes des conteneurs ajouté : 
 
 - **product-producer**
